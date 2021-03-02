@@ -39,7 +39,7 @@ void Vector3d::multiplayV()
 	cout << "x1 = "; cin >> a;
 	cout << "y1 = "; cin >> b;
 	cout << "z1 = "; cin >> c;
-	vector.multiplay(a, b, c);
+	cout << "Scalar product two vectors: " << vector.multiplay(a, b, c);
 }
 void Vector3d::Triad::setX(int value)
 {
