@@ -20,7 +20,7 @@ private:
 		void setZ(int);
 
 		void add(int x1, int y1, int z1);
-		void multiplay(int x1, int y1, int z1);
+		int multiplay(int x1, int y1, int z1);
 		void equal();
 
 		void Init(int x, int y, int z);
